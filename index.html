@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'> <!-- displays site properly based on user's device -->
+
+  <link rel='icon' type='image/png' sizes='32x32' href='./images/favicon-32x32.png'>
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    html {height: 100vh;}
+    .main { display: flex; height: 100vh; align-items: center; }
+  </style>
+  <link href='./src/input.css' rel='stylesheet'>
+</head>
+<body class='bg-slate-900'>
+  <div class="main">
+    <div class='container bg-slate-800 flex flex-col w-96 mx-auto my-5 rounded-xl'>
+      <div class='img'>
+        <img src='./images/image-equilibrium.jpg' class="w-5/6 mx-auto my-5 rounded-xl">
+      </div>
+      <div class='title text-xl font-semibold text-white w-5/6 mx-auto'>
+        Equilibrium #3429
+      </div>
+      <div class='description mx-auto w-5/6 py-3 text-gray-400'>
+        Our Equilibrium collection promotes balance and calm.
+      </div>
+      <div class='numbers flex w-5/6 mx-auto justify-between py-3'>
+        <div class='value flex'><img src='./images/icon-ethereum.svg' class="mr-2 object-scale-down"><span class="text-cyan-300 font-semibold">0.041 ETH</span></div>
+        <div class='date flex'><img src='./images/icon-clock.svg' class="mr-2 object-scale-down"><span class="text-gray-400">3 days left</span></div>
+      </div>
+      <div class='credits flex w-5/6 mx-auto py-3'>
+        <img src='./images/image-avatar.png' class="w-1/12 bg-white rounded-full border-2">
+        <span class="text-gray-200"><span class="text-gray-400 pl-2">Creation of</span> Jules Wyvern</span>
+      </div>
+    </div>
+  </div>
+  <div class='attribution absolute inset-x-0 bottom-0 text-white'>
+    Challenge by <span class="text-blue-300">Frontend Mentor</span>. 
+    Coded by <span class="text-blue-300">Daniel Romero</span>.
+  </div>
+</body>
+</html>
